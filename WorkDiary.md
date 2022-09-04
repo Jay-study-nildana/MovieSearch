@@ -60,3 +60,30 @@ Now, basic things are ready.
 1. basic react js is ready.
 
 First Phase is complete. 
+
+Phase Two
+
+1. we need to make a simple ‘api call’ using axios.
+1. we should show the information on the React JS web app using react component.
+
+let's look at this button 
+
+https://github.com/Jay-study-nildana/FrontEndForStudents/blob/main/ReactJSForStudents/axioshelloworldhttps/src/components/GetSomethingWithButton.js
+
+first, we need to install axios. 
+
+```
+    npm install axios
+```
+
+first step 
+
+1. we need to make a simple ‘api call’ using axios.
+
+we are getting NASA API data. 
+
+1. Show the NASA data on the web app. 
+1. useEffect
+1. useState. 
+
+
