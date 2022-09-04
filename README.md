@@ -5,7 +5,8 @@ a simple mini project that showcases node js api server with react js web app us
 # References 
 
 1. https://github.com/Jay-study-nildana/FrontEndForStudents/tree/main/ReactJSForStudents/axioshelloworldhttps - this is the source for this project. 
-
+1. https://github.com/Jay-study-nildana/FrontEndForStudents/tree/main/ReactJSForStudents/httpshelloworld
+1. https://github.com/Jay-study-nildana/NodeJSForStudents/tree/main/MongoDB_API_CRUD_HelloWorld
 # Hire Me
 
 I work as a full time freelance coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy). 
