@@ -6,6 +6,13 @@ note : remember to have Postman installed. I have included a Postman collection 
 
 note : learn how to use the mongodb db driver for node js, here : https://www.mongodb.com/docs/drivers/node/current/
 
+# about mongo db 
+
+1. Ensure that your online mongo db, 'local IP address' is added in the database dashboard. 
+1. check with compass software, if you are able to access the online database.
+1. make sure that you updated the connectionstring 'cloudconnectionstring' in the .env file to match your mongo db online database.
+1. after that, test the endpoints with the postman. 
+
 # .env file
 
 You must create a .env file which looks like this. Note that this project uses both localhost and cloud mongo db databases. make sure both are ready. 
@@ -48,6 +55,7 @@ then, enable it.
 # Output - basics
 
 ```
+    npm install
     npm run dev
 ```
 
