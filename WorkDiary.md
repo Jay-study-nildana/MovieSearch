@@ -2,6 +2,14 @@
 
 This is a work diary of this project. 
 
+# September 10th. 
+
+Phase Three : Completed. 
+
+Phase Four : has begun. 
+
+1. put the NASA output into a separate component in a separate file.  
+
 # September 4th 2022
 
 Started this project. 
