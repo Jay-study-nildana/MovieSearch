@@ -2,6 +2,25 @@
 
 This is a work diary of this project. 
 
+# September 10th. 
+
+Phase Three : Completed. 
+
+Phase Four : has begun. 
+
+1. put the NASA output into a separate component in a separate file.  
+
+using this as an example. 
+
+https://github.com/Jay-study-nildana/FrontEndForStudents/blob/main/ReactJSForStudents/StarterNASAAPODReactJS/src/NASAAPOD/APODWithAPI.js
+
+Moved NASA code to separate component. 
+
+App.js now only has components and nothing else. 
+
+That is Phase Four complete. 
+
+
 # September 4th 2022
 
 Started this project. 
