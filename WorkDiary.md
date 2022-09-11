@@ -2,6 +2,37 @@
 
 This is a work diary of this project. 
 
+# September 11th 2022
+
+Ready to start Phase V. 
+
+Branch is 
+
+https://github.com/Jay-study-nildana/MovieSearch/tree/PhaseFiveBeginsSeptember11th2022
+
+
+Two references 
+
+https://github.com/Jay-study-nildana/FrontEndForStudents/blob/main/ReactJSForStudents/axioshelloworldhttps/src/components/GetSomethingWithButton.js
+
+https://github.com/Jay-study-nildana/FrontEndForStudents/blob/main/ReactJSForStudents/axioshelloworldhttps/src/components/PostSomethingMongo.js
+
+Now, i have the movie count displaying. 
+
+show the movie array in a list. 
+
+```
+                {post.movies.map((singlemovieitem) =>
+                    <MovieItem key={singlemovieitem._id} movie={singlemovieitem} />
+                )}
+```
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+Okay, able to show a list of movies in react JS. 
+
+Phase Five is complete. 
+
 # September 10th. 
 
 Phase Three : Completed. 
