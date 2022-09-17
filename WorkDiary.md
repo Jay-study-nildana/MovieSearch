@@ -2,6 +2,28 @@
 
 This is a work diary of this project. 
 
+# September 17th 2022
+
+Ready to start Phase VI. 
+
+Project has been cloned and everything is looking good. 
+
+We can get the input box and POST search code from here 
+
+https://github.com/Jay-study-nildana/FrontEndForStudents/blob/main/ReactJSForStudents/axioshelloworldhttps/src/components/PostSomethingMongo.js
+
+https://developer.mozilla.org/en-US/docs/Web/Events
+
+Okay, input box done. 
+
+and button click is able to show the input gox 'search term'.
+
+Next : 
+
+1. Connect the 'search term' with the back end POST endpoint. 
+1. get the results in the console log. 
+1. Show the results in the component view
+
 # September 11th 2022
 
 Ready to start Phase V. 

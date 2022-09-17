@@ -16,6 +16,9 @@ const ShowReturningMoviesComponent = () => {
     const [post, setPost] = useState(null);
     const [loadmessage,setloadmessage] = useState(stringclickButton);     
 
+    const [quoteContent, setquoteContent] = useState('');
+    const [quoteContentMimic, setquoteContentMimic] = useState('');    
+
     function callMOVIEAPI()
     {
         axios.get(APIURIGetMovies).then(
@@ -58,7 +61,7 @@ const ShowReturningMoviesComponent = () => {
             </div>
         );
         return moviething;
-    }      
+      }      
 
       const outputWhenNull = 
       (
@@ -66,12 +69,23 @@ const ShowReturningMoviesComponent = () => {
           <div className="text-center hero my-5">
             <h5>This is the Show Movie Component Component - Beginning</h5>
           {/* <img className="mb-3 app-logo" src={logo} alt="React logo" width="120" /> */}
-          <h1 className="mb-4">{string1}</h1> 
-          <h1 className="mb-4">{loadmessage}</h1>   
-          {/* <button className="btn btn-primary" onClick={callNASAAPI}>call API</button> */}
-          <button className="btn btn-primary" onClick={callMOVIEAPI}>call API</button>
-          <img src={localAntEaterImage} className="img-fluid" alt="..."></img>
-          <h5>This is the Show Movie Component  Component - Ending.</h5>
+            <h1 className="mb-4">{string1}</h1> 
+            <h1 className="mb-4">{loadmessage}</h1>   
+            {/* <div className="input-group mb-3">
+              <div>
+                  <input
+                      type="text"
+                      className="form-control"
+                      placeholder="enter anything you want"
+                      onChange={e => setquoteContent(e.target.value)}
+                      value={quoteContent}
+                  />
+                  <p>You are typing : {quoteContentMimic}</p>
+              </div>
+            </div> */}
+            <button className="btn btn-primary" onClick={callMOVIEAPI}>call API</button>
+            <img src={localAntEaterImage} className="img-fluid" alt="..."></img>
+            <h5>This is the Show Movie Component  Component - Ending.</h5>
           </div>
       );
       
@@ -82,6 +96,7 @@ const ShowReturningMoviesComponent = () => {
 
       const outputNOTNull = (
         <div className="text-center hero my-5">
+          <h5>This is the Show Movie Component Component - Beginning</h5>
         {/* <img className="mb-3 app-logo" src={logo} alt="React logo" width="120" /> */}
         <h1 className="mb-4">{string1}</h1> 
         <h1 className="mb-4">{stringloaded}</h1>   
@@ -97,7 +112,7 @@ const ShowReturningMoviesComponent = () => {
         <hr></hr>
         {/* <img src={localAntEaterImage} className="img-fluid" alt="..."></img> */}
       
-      
+        <h5>This is the Show Movie Component  Component - Ending.</h5>
         </div> 
       )
       
