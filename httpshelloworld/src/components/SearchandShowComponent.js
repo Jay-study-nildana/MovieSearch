@@ -7,6 +7,7 @@ import { useState, useEffect } from 'react';
 import localAntEaterImage from "../images/enguerrand-blanchy-3oADW0Ptj8c-unsplash.jpg";
 let string1 = `This is where you will get your Movie things.`;
 let APIURIGetMovies = `http://localhost:8081/mongodb/returnsomemovies`;
+let APIURIPOSTSearchMovie = `http://localhost:8081/mongodb/searchformovie`;
 let stringclickButton = `click the button to load data`
 let stringloading = `loading........`;
 let stringloaded = `MOVIE DATA IS HERE FROM AXIOS`;
@@ -23,7 +24,16 @@ const SearchandShowComponent = () => {
     function callMOVIEAPI()
     {
         console.log(`Searching for : ${quoteContent}`)
-        axios.get(APIURIGetMovies).then(
+        // let postObject = 
+        // {
+        //     "termone" : "james bond"
+        // }
+        let postObject = 
+        {
+            "termone" : quoteContent
+        }
+        console.log(postObject);
+        axios.post(APIURIPOSTSearchMovie,postObject).then(
             (response) => {
                 console.log(response.data);
                 setPost(response.data);
@@ -40,16 +50,18 @@ const SearchandShowComponent = () => {
     // console.log(props);
     const moviething = (
         <div>
-            <h4>Movie Title : {props.movie.title}</h4>
+            <h4>Movie ID : {props.movie._id}</h4>
             <br></br>
             {/* <p>plot : {props.movie.plot}</p> */}
             {/* <p>votes : {props.movie.imdb.votes}</p>
             <p>id : {props.movie.imdb.id}</p>
             <p>hello</p> */}
             <h5>IMDB Details</h5>
-            <p>Rating : {props.movie.imdb.rating}</p>
+            {/* <p>Rating : {props.movie.imdb.rating}</p>
             <p>Votes : {props.movie.imdb.votes}</p>
-            <p>ID : {props.movie.imdb.id}</p>
+            <p>ID : {props.movie.imdb.id}</p> */}
+            <h4>Plot</h4>
+            <p>{props.movie.plot}</p>
             <hr></hr>
         </div>
     );

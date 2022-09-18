@@ -2,6 +2,49 @@
 
 This is a work diary of this project. 
 
+# September 18th 2022
+
+Ready to go to the next step. 
+
+Next : 
+
+1. Connect the 'search term' with the back end POST endpoint. 
+1. get the results in the console log. 
+1. Show the results in the component view
+
+Get the host. 
+
+http://localhost:8081/
+
+this.server.get('/dummycar', (req, res) => {
+
+http://localhost:8081/dummycar
+this.server.get('/dummycarwithlodash', (req, res) => {
+
+http://localhost:8081/dummycarwithlodash
+
+this.server.post('/mongodb/searchformovie', (req, res) => {
+
+http://localhost:8081/mongodb/searchformovie
+
+termone: req.body.termone
+
+{
+    "termone" : ""
+}
+
+Phase Six Completed. 
+
+Next : 
+
+1. Router. Routing. Different links have different components.
+1. local storage. Useful for storing user details.
+1. FB login. 
+1. Google login.
+1. Put all this, in our movie project
+
+
+
 # September 17th 2022
 
 Ready to start Phase VI. 
