@@ -63,6 +63,13 @@ then, enable it.
 
 This API server uses both locally running mongo db. And alos mongo db on mongo cloud. 
 
+You will see this error in the terminal or console. 
+
+```
+    ERROR: MongoServerError: bad auth : Authentication failed.
+```
+Ensure your username and password is correct. 
+
 # References : mongodb driver for nodejs
 
 1. https://www.mongodb.com/docs/drivers/node/current/usage-examples/findOne/
