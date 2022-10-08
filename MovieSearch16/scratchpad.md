@@ -1,3 +1,15 @@
+const About = () => (
+    <div className="text-center hero my-5">
+        <blockquote class="blockquote">
+        <p>{simpleMessage}</p>
+        </blockquote>
+        <img src={localImage} className="img-fluid" alt="..."></img>
+  </div>
+);
+
+export default About;
+
+
 ```
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.0.0",

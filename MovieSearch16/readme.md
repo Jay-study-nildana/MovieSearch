@@ -1,4 +1,8 @@
-# React JS Hello World Project with google login
+# Movie Search Project React 16.
+
+This is a simple front end for the movie search API mongo db server. This uses React 16 with google and fb login.
+
+# Old Notes
 
 ![image info](RandomStuffGeneratorReactApp.png)
 
@@ -12,6 +16,18 @@ Note : please remember that the google login library is designed to work for old
 1. index.js 
 
 to see the changes you have to make to get it to work.
+
+# fbconfig.json file
+
+Please create a file called 'fbconfig.json' in your 'src' folder. 
+
+And, fill it up with the following values from your FB app. 
+
+```
+    {
+        "appID": "appidputhere"
+    }
+```
 
 # googleconfig.json file
 
