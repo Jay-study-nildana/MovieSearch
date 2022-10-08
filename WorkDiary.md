@@ -47,6 +47,13 @@ next, add facebook login.
 
 npm install react-facebook-login
 
+1. get google and fb login to work in the same project.
+1. we can use both. 
+1. we built a ‘dedicated’ login component.
+1. App.js is very small, again.
+
+Next, discuss and make the next plan. 
+
 # September 18th 2022
 
 Ready to go to the next step. 
