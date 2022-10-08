@@ -2,6 +2,51 @@
 
 This is a work diary of this project. 
 
+# October 8th 2022 
+
+Game Plan : 
+
+MovieSearch16 : 1. we must rebuild/recopy/reuse/recycle the movie search project in react 16.1. open the previous ‘project’1. create a new React 16 project. 1. add both google login and facebook login.1. move all the components from the ‘previous’ project to the new React 16 project.1. After this is working, start adding new features and ideas until the batch is over. 
+
+first step is get the backend ready.
+
+MongoDB_API_CRUD_HelloWorld
+
+it is ready, it is working from Postman. 
+
+now, front end.
+
+this is the problem.
+
+```
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+```
+
+So, the old React JS 18.X version is working. 
+
+now, building the React 16 project. 
+
+https://github.com/Jay-study-nildana/FrontEndForStudents/tree/main/ReactJSForStudents/reactgoogleloginhelloworld
+https://github.com/Jay-study-nildana/FrontEndForStudents/tree/main/ReactJSForStudents/reactfbloginhelloworld
+
+in these projects, we have 
+
+```
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+```
+
+new project folder 
+
+MovieSearch16
+
+okay, google login is working. 
+
+next, add facebook login. 
+
+npm install react-facebook-login
+
 # September 18th 2022
 
 Ready to go to the next step. 
