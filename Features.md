@@ -2,7 +2,7 @@
 
 List of features we want to add. 
 
-1. facebook automatically logs in. If possible, we should stop this behavior.
+
 1. after logging in, on another tab, we should automatically detect and show user details. 
 1. show a list of ‘fixed’ movies list. 
 1. show a list of 'dynamic' movies list based on the 'search input'.
@@ -16,3 +16,5 @@ List of features we want to add.
 # Features DONE 
 
 1. react router dom hello world. Different links and showing different things. DONE. 
+1. facebook automatically logs in. If possible, we should stop this behavior. DONE.
+1. after logging in, on another tab, we should automatically detect and show user details. DONE.  

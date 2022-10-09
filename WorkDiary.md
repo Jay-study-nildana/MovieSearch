@@ -36,6 +36,30 @@ we have this.
 
 ```
 
+so, routing is done. 
+
+next, 
+
+1. facebook automatically logs in. If possible, we should stop this behavior.
+
+react-facebook-login
+
+https://github.com/keppelen/react-facebook-login
+
+removed this line. 
+
+```
+
+    autoLoad={true}
+
+```
+
+1. after logging in, on another tab, we should automatically detect and show user details. DONE.
+
+next 
+
+more featuers. 
+
 # October 8th 2022 
 
 Game Plan : 
