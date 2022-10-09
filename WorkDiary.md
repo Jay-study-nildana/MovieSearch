@@ -2,6 +2,12 @@
 
 This is a work diary of this project. 
 
+# October 9th 2022
+
+and now we are in Phase 11. 
+
+
+
 # October 8th 2022 
 
 Game Plan : 
