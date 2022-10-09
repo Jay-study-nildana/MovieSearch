@@ -6,7 +6,35 @@ This is a work diary of this project.
 
 and now we are in Phase 11. 
 
+add essential libraries. 
 
+1. localstorage
+1. react router dom
+
+```
+
+    npm install local-storage
+    npm install react-router-dom
+    npm install history
+```
+
+libraries are added. 
+
+next 
+
+1. react router dom hello world. Different links and showing different things.
+
+https://medium.com/projectwt/create-react-app-hello-world-2022-edition-f36275a0e7c4
+
+bootstrap is already added. that' good. 
+
+we have this.
+
+```
+
+    ERROR in ./src/components/Home.js 4:0-46
+
+```
 
 # October 8th 2022 
 

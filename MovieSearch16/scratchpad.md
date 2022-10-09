@@ -1,3 +1,60 @@
+
+import './App.css';
+import { Routes, Route, Outlet, Link } from "react-router-dom";
+import Layout from "./components/Layout";
+import Home from "./components/Home";
+import About from "./components/About";
+import Dashboard from "./components/Dashboard";
+import NoMatch from "./components/NoMatch";
+
+let someString = `Hello and Welcome`;
+function App() {
+  return (
+    <div className="container text-center">
+      <hr></hr>
+      <Routes>
+          <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="dashboard" element={<Dashboard />} />
+          {/* Using path="*"" means "match anything", so this route
+                acts like a catch-all for URLs that we don't have explicit
+                routes for. */}
+          <Route path="*" element={<NoMatch />} />
+        </Route>
+      </Routes>
+    </div>    
+  );
+}
+
+export default App;
+
+
+-----
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from "react-router-dom";
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+
+
+----
 const About = () => (
     <div className="text-center hero my-5">
         <blockquote class="blockquote">
