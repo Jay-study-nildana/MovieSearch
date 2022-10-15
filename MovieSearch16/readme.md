@@ -2,6 +2,50 @@
 
 This is a simple front end for the movie search API mongo db server. This uses React 16 with google and fb login.
 
+# https extra notes 
+
+First, look at the 'start' command in package.json.
+
+```
+  "scripts": {
+    "start": "set HTTPS=true&&set SSL_CRT_FILE=./.cert/cert.pem&&set SSL_KEY_FILE=./.cert/key.pem&&react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+```
+
+That's how we force this project to run in HTTPS. To make this happen, we need to install certificates. 
+
+Note : I did this on windows. So, these steps are windows specific. 
+
+To get certificates, you have the following commands. 
+
+1. install chocolatey
+1. then, the actual certificate library, 'choco install mkcert'
+1. the actual command to create the certificates.
+
+```
+    //create a certficate folder
+    mkdir -p .cert
+    //create the actual certificates in the folder 
+    mkcert -key-file ./.cert/key.pem -cert-file ./.cert/cert.pem "localhost"
+```
+
+it's a lot of steps. if you did everything correctly, you will get this. 
+
+```
+    Compiled successfully!
+
+    You can now view reactfbloginhelloworld in the browser.
+
+    Local:            https://localhost:3000
+    On Your Network:  https://192.168.29.208:3000
+
+    Note that the development build is not optimized.
+    To create a production build, use npm run build.
+```
+
 # Old Notes
 
 ![image info](RandomStuffGeneratorReactApp.png)

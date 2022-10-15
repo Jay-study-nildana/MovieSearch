@@ -2,6 +2,26 @@
 
 This is a work diary of this project. 
 
+# October 15th 2022
+
+we are continuing Phase 11. 
+
+doing a fresh clone and running to benefit the students who want to run my project. 
+
+back end. 
+
+MongoDB_API_CRUD_HelloWorld
+
+front end. 
+
+MovieSearch16
+
+started using Trello. 
+
+https://trello.com/b/4QVEGk4L/movie-search-project-student-demo
+
+wrapping up for today. 
+
 # October 9th 2022
 
 and now we are in Phase 11. 
