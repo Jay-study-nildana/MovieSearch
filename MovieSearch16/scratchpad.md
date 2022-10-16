@@ -1,4 +1,17 @@
 
+FB details : 
+
+              <h3>{userData.name}</h3>
+              <p>{userData.email}</p>
+
+Google details :
+
+              <h3>{userDataprofileObj.name}</h3>
+              <p>{userDataprofileObj.email}</p>
+
+
+----------
+
 import './App.css';
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import Layout from "./components/Layout";

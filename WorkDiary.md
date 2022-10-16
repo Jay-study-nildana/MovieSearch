@@ -2,6 +2,34 @@
 
 This is a work diary of this project. 
 
+# October 16th 2022
+
+we are continuing Phase 11. 
+
+1. don’t show the photo. done. 
+1. 1. don’t show the photo. Done.1. stopped showing the google id when google login is used. Done.
+
+Next.
+
+1. on new tab, logged in status is working. Which is good. But, name, email and id is not visible on second tab or second window. 
+
+DONE. 
+
+FB details : 
+
+              <h3>{userData.name}</h3>
+              <p>{userData.email}</p>
+
+Google details :
+
+              <h3>{userDataprofileObj.name}</h3>
+              <p>{userDataprofileObj.email}</p>
+
+
+but we have a bug, where, first time login, the values are not showing. 
+
+
+
 # October 15th 2022
 
 we are continuing Phase 11. 
